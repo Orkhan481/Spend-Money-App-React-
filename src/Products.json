@@ -1,0 +1,26 @@
+[
+    {
+       "id":1,
+       "title":"iPhone 14 Plus 128GB Midnight",
+       "image":"https://irshad.az/resized/fit540x550/center/products/80672/14-midn.jpg",
+       "price":2800
+    },
+    {
+        "id":2,
+        "title":"Samsung Galaxy A04s (SM-A047) 64GB Black",
+        "image":"https://irshad.az/resized/fit540x550/center/products/81431/a047-black.jpeg",
+        "price":390
+    },
+    {
+        "id":3,
+        "title":"Xiaomi Poco F4 GT 256GB Silver",
+        "image":"https://irshad.az/resized/fit540x550/center/products/79036/pocof4gt-silver.jpg",
+        "price":1600
+    },
+    {
+        "id":4,
+        "title":"Oppo Reno 4 Lite 128GB White",
+        "image":"https://irshad.az/resized/fit540x550/center/products/44162/0f9b7c637b3ff127520c64ae9acc1876.jpg",
+        "price":860
+    }
+]

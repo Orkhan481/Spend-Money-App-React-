@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
+:root{
+    --orange:#FD841F;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* HEADERS */
+header{
+    width: 100%;
+    height: 55px;
+    background-color: var(--orange);
+    color:#000;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* PRODUCT */
+.products{
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+    
 }
-
-.App-link {
-  color: #61dafb;
+.phone-img{
+    width: 270px;
+    height:270px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.product{
+    width: 20%;
+    border:2px solid var(--orange);
+    border-radius: 20px;
+}
+.product:hover{
+    transition: all .6s ease-in-out;
+    box-shadow: 1px 2px var(--orange);
+    transform: scale(1.03);
+}
+.product img{
+    margin:8px 0;
+}
+.product h2,h4{
+    margin:4px;
+}
+.product h2{
+    font-size: 22px;
+}
+.product h4{
+    font-size: 20px;
+    color:var(--orange);
+}
+.product .btns{
+    margin:5px 2px;
+}
+.product .btns button{
+    padding: 12px 22px;
+    margin:0 12px;
+    border-radius: 8px;
+    color:#000;
+    border:0;
+}
+.product .btns button:hover{
+    transition: all .6s ease-in-out;
+    transform: scale(.9);
+}
+.product .btns button:nth-child(1){
+    background-color: lightsalmon;
+}
+.product .btns button:nth-child(3){
+    background-color: lightgreen;
+}
+/* BASKET */
+.basket{
+    width: 75%;
+    margin: 0 auto;
+    border:2px solid var(--orange);
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+.little-phone-img{
+    width: 25px;
+}
+.basket-item{
+    margin:3px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+.basket-item img{
+    margin-right: 8px;
+}
+.total{
+    margin:10px 0;
+    font-size: 20px;
+}
+.total-money{
+    color:var(--orange);
+}
+.product-amount{
+  font-size: 24px;
+  margin-left: 5px;
+  color:var(--orange);
+}
+.reset-btn{
+   padding: 10px 30px;
+   background-color: lightcoral;
+   border: 0;
+   border-radius: 8px;
 }
